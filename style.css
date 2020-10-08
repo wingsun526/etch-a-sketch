@@ -1,0 +1,20 @@
+:root {
+    --box-height: calc(500px/16);
+    --box-width: calc(500px/16);
+  }
+#canvas {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.box {
+    
+    width: var(--box-height);
+    height: var(--box-width);
+    outline: 1px solid rgb(202, 201, 201);
+    
+}
+
